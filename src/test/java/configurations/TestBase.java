@@ -23,7 +23,7 @@ public class TestBase {
 
         String browser = System.getProperty("browser", "chrome");
         String browserVersion = System.getProperty("browserVersion", "100");
-        String browserSize = System.getProperty("browserSize", "1520x900");
+        String browserSize = System.getProperty("browserSize", "1920x1080");
         String remoteUrl = System.getProperty("remoteUrl");
 
         Configuration.browser = browser;
