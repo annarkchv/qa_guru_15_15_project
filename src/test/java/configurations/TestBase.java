@@ -22,12 +22,10 @@ public class TestBase {
         Configuration.baseUrl = "https://meduza.io";
 
         String browser = System.getProperty("browser", "chrome");
-        String browserVersion = System.getProperty("browserVersion", "100");
         String browserSize = System.getProperty("browserSize", "1920x1080");
         String remoteUrl = System.getProperty("remoteUrl");
 
         Configuration.browser = browser;
-        Configuration.browserVersion = browserVersion;
         Configuration.browserSize = browserSize;
         if (remoteUrl != null) {
             Configuration.remote = remoteUrl;
