@@ -9,23 +9,16 @@
   + [Tools and technologies](#Technology)
 + [How to run](#Jenkins)
     + [Gradle command](#GradleCommand)
-    + [Property files](#PropertyFiles)
-        + [Default property files](#PropertyFilesDefaults)
     + [Run in Jenkins](#RunInJenkins)
 + [Telegram Notifications](#TelegramNotifications)
-+ [Test results report in Allure Report](#AllureReport)
-    + [Project in Allure TestOps](#AllureTestOpsProject)
-    + [Start a run of custom set of tests](#AllureTestOpsStartTests)
-    + [Dashboards](#Dashboards)
-+ [Video of running tests](#Video)
 
 
 # <a name="Description">Description</a>
 The test project consists of Web tests.Tests check both russian and english versions of the website.
 <p  align="center">
-<img src="src/test/resources/images/screenshots/main_page.png" alt="MeduzaMainPage" width="455">
-<img src="src/test/resources/images/screenshots/footer_eng.png" alt="FooterEng" width="450">
-<img src="src/test/resources/images/screenshots/auth_ru.png" alt="AuthRu" width="470">
+<img src="src/test/resources/images/screenshots/main_page.png" alt="MeduzaMainPage" width="700">
+<img src="src/test/resources/images/screenshots/footer_eng.png" alt="FooterEng" width="700">
+<img src="src/test/resources/images/screenshots/auth_ru.png" alt="AuthRu" width="700">
 </p>
 Test-run GIF
 <p  align="center">
@@ -83,14 +76,14 @@ Additional parameters:
 ## <a name="RunInJenkins">Run in [Jenkins](https://jenkins.autotests.cloud/job/C15-anna_rkchv-Unit15_Project_HW/)</a>
 Main page of the build and parameters for Jenkins job:
 <p  align="center">
-<img src="src/test/resources/images/screenshots/jenkins_mainpage.png" alt="JenkinsBuildMainPage" width="600">
-<img src="src/test/resources/images/screenshots/jenkins_params.png" alt="JenkinsBuildParameters" width="420">
+<img src="src/test/resources/images/screenshots/jenkins_mainpage.png" alt="JenkinsBuildMainPage" width="700">
+<img src="src/test/resources/images/screenshots/jenkins_params.png" alt="JenkinsBuildParameters" width="700">
 </p>
 
 After the build is done the test results are available in <code>Allure Report</code>
 <p  align="center">
-<img src="src/test/resources/images/screenshots/allure_mainpage.png" alt="JenkinsBuildParameters" width="600">
-<img src="src/test/resources/images/screenshots/allure_tests.png" alt="JenkinsBuildParameters" width="600">
+<img src="src/test/resources/images/screenshots/allure_mainpage.png" alt="JenkinsBuildParameters" width="700">
+<img src="src/test/resources/images/screenshots/allure_tests.png" alt="JenkinsBuildParameters" width="700">
 </p>
 
 [Back to the table of contents ⬆](#TableOfContents)
@@ -99,7 +92,7 @@ After the build is done the test results are available in <code>Allure Report</c
 # <a name="TelegramNotifications">Telegram Notifications</a>
 Results of each build are sent to a specified telegram chat.
 <p  align="center">
-<img src="src/test/resources/images/screenshots/telegram_notification.png" alt="TelegramNotificaton" width="450">
+<img src="src/test/resources/images/screenshots/telegram_notification.png" alt="TelegramNotificaton" width="700">
 </p>
 
 
